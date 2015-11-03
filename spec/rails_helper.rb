@@ -18,8 +18,9 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
   config.use_transactional_fixtures = false
 
-  config.before(js: true) do
-    page.driver.block_unknown_urls
+  #config.before(js: true) do
+  Capybara::Webkit.configure do |config|
+    config.block_unknown_urls
   end
 end
 

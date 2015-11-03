@@ -8,8 +8,7 @@ install:
 branches:
   only:
     - master
-cache:
-  - bundler
+cache: bundler
 language:
   - ruby
 notifications:

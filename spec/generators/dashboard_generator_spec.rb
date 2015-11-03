@@ -321,7 +321,7 @@ describe Administrate::Generators::DashboardGenerator, :generator do
           ActiveRecord::Schema.define do
             create_table :foos do |t|
               t.string :name
-              t.timestamps
+              t.timestamps null: false
             end
           end
 
