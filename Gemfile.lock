@@ -65,7 +65,7 @@ GEM
       thor (>= 0.14.0)
     arel (6.0.3)
     ast (2.1.0)
-    autoprefixer-rails (6.0.3)
+    autoprefixer-rails (6.1.0.1)
       execjs
       json
     awesome_print (1.6.1)
@@ -137,7 +137,7 @@ GEM
       ruby-progressbar (~> 1.4)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    hashdiff (0.2.2)
+    hashdiff (0.2.3)
     high_voltage (2.4.0)
     highline (1.7.8)
     i18n (0.7.0)
