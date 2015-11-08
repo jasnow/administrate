@@ -16,10 +16,18 @@
 
 ### Upcoming Release
 
+* [#142] [FEATURE] Translation: Brazilian Portuguese
+* [#171] [FEATURE] Translation: Polish
+* [#153] [FEATURE] Translation: Russian
+* [#156] [COMPAT] Include missing `sass-rails` dependency in gemspec
+* [COMPAT] Update repository structure so Bundler can pull the gem from github.
+  (e.g. `gem "administrate", github: "thoughtbot/administrate"`)
+* [COMPAT] Use ANSI SQL standards for case-insensitive search
 * [DOC] Add Rubygems version badge to README
 * [DOC] Add CircleCI badge to README
 * [DOC] Add CodeClimate badge to README
 * [UI] Preserve whitespace when rendering text fields
+* [#154] [FEATURE] Add Spanish translation for i18n
 
 ### 0.1.0 (October 30, 2015)
 

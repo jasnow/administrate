@@ -1,8 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 ruby "2.2.3"
 
-gem 'administrate', path: "administrate"
+gemspec
 
 gem "airbrake"
 gem "coffee-rails", "~> 4.1.0"
@@ -15,18 +15,15 @@ gem "i18n-tasks"
 gem "jquery-rails", ">= 4.0.4"
 gem "newrelic_rpm"
 gem "pg"
-gem "rails", "4.2.2"
+gem "rails", "4.2.4"
 gem "recipient_interceptor"
 gem "refills"
-gem "sass-rails", "~> 5.0"
 gem "simple_form"
 gem "title"
 gem "uglifier", ">= 2.7.2"
 gem "unicorn"
 
 group :development do
-  gem "spring"
-  gem "spring-commands-rspec"
   gem "web-console", ">= 2.1.3"
 end
 

@@ -1,11 +1,13 @@
 ENV["RAILS_ENV"] = "test"
 
-require File.expand_path("../../config/environment", __FILE__)
+require File.expand_path("../../spec/example_app/config/environment", __FILE__)
 
 require "rspec/rails"
 require "shoulda/matchers"
 
-Dir[Rails.root.join("spec/support/**/*.rb")].each { |file| require file }
+Dir[Rails.root.join("../../spec/support/**/*.rb")].each { |file| require file }
+
+require "factories"
 
 module Features
   # Extend this module in spec/support/features/*.rb
@@ -23,6 +25,8 @@ RSpec.configure do |config|
     config.block_unknown_urls
   end
 end
+
+Capybara::Webkit.configure(&:block_unknown_urls)
 
 ActiveRecord::Migration.maintain_test_schema!
 Capybara.javascript_driver = :webkit
