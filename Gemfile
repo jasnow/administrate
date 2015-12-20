@@ -23,6 +23,8 @@ gem "title"
 gem "uglifier", ">= 2.7.2"
 gem "unicorn"
 
+gem 'parser', '2.3.0.pre.6' # WORK-AROUND for Ruby 2.2.4
+
 group :development do
   gem "web-console", ">= 2.1.3"
 end
