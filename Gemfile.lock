@@ -2,16 +2,16 @@ PATH
   remote: .
   specs:
     administrate (0.1.0)
-      autoprefixer-rails (~> 6.0)
-      datetime_picker_rails (~> 0.0.5)
-      inline_svg (~> 0.6)
-      kaminari (~> 0.16)
-      momentjs-rails (~> 2.8)
-      neat (~> 1.1)
-      normalize-rails (~> 3.0)
-      rails (~> 4.2)
-      sass-rails (~> 5.0)
-      selectize-rails (~> 0.6)
+      autoprefixer-rails
+      datetime_picker_rails
+      inline_svg
+      kaminari
+      momentjs-rails
+      neat
+      normalize-rails
+      rails
+      sass-rails
+      selectize-rails
 
 GEM
   remote: https://rubygems.org/
