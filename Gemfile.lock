@@ -51,7 +51,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.3.8)
     airbrake (5.0.2)
       airbrake-ruby (~> 1.0)
     airbrake-ruby (1.0.2)
@@ -275,7 +275,7 @@ GEM
     thor (0.19.1)
     thread (0.2.2)
     thread_safe (0.3.5)
-    tilt (2.0.1)
+    tilt (2.0.2)
     timecop (0.8.0)
     tins (1.8.1)
     title (0.0.5)
@@ -294,8 +294,8 @@ GEM
       activemodel (>= 4.2)
       debug_inspector
       railties (>= 4.2)
-    webmock (1.22.3)
-      addressable (>= 2.3.6)
+    webmock (1.22.5)
+      addressable (< 2.4.0)
       crack (>= 0.3.2)
       hashdiff
     xpath (2.0.0)
