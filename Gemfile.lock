@@ -51,7 +51,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
+    addressable (2.4.0)
     airbrake (5.0.2)
       airbrake-ruby (~> 1.0)
     airbrake-ruby (1.0.2)
@@ -173,7 +173,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
-    momentjs-rails (2.10.6)
+    momentjs-rails (2.11.0)
       railties (>= 3.1)
     neat (1.7.2)
       bourbon (>= 4.0)
@@ -294,8 +294,8 @@ GEM
       activemodel (>= 4.2)
       debug_inspector
       railties (>= 4.2)
-    webmock (1.22.5)
-      addressable (< 2.4.0)
+    webmock (1.22.6)
+      addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
     xpath (2.0.0)
