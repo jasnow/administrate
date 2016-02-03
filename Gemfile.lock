@@ -52,7 +52,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    airbrake (5.0.3)
+    airbrake (5.0.4)
       airbrake-ruby (~> 1.0)
     airbrake-ruby (1.0.4)
     ammeter (1.1.3)
