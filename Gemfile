@@ -4,7 +4,7 @@ ruby '2.3.0'
 
 gemspec
 
-gem 'rails', '4.2.6.rc1'
+gem 'rails', '4.2.6'
 
 gem 'airbrake'
 gem 'coffee-rails'
