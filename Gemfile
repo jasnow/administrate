@@ -24,7 +24,7 @@ gem 'title'
 gem 'uglifier'
 gem 'unicorn'
 
-gem 'parser', '2.3.0.pre.6' # WORK-AROUND for Ruby 2.2.4
+gem 'parser'
 
 group :development do
   gem 'web-console'
